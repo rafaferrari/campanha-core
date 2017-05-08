@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: "jacoco"
+
+jar {
+    baseName = 'campanha-core'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+if (!hasProperty('mainClass')) {
+  ext.mainClass = 'com.processo_seletivo_core.Application'
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web") {
+        exclude module: "spring-boot-starter-tomcat"
+    }
+    compile("org.springframework.boot:spring-boot-starter-jetty")    
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("com.h2database:h2")    
+    compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.6.1")
+    compile("com.google.guava:guava:21.0")
+    
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
