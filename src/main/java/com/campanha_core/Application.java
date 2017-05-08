@@ -1,5 +1,5 @@
 
-package com.processo_seletivo_core;
+package com.campanha_core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.processo_seletivo_core.controller;
+package com.campanha_core.controller;
 
-import com.processo_seletivo_core.domain.campanha.Campanha;
-import com.processo_seletivo_core.domain.campanha.CampanhaService;
+import com.campanha_core.domain.campanha.Campanha;
+import com.campanha_core.domain.campanha.CampanhaService;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;

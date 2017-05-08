@@ -1,7 +1,7 @@
 
-package com.processo_seletivo_core.controller.utils;
+package com.campanha_core.controller.utils;
 
-import com.processo_seletivo_core.domain.exceptions.ServiceException;
+import com.campanha_core.domain.exceptions.ServiceException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

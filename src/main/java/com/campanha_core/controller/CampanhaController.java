@@ -1,4 +1,4 @@
-package com.processo_seletivo_core.controller;
+package com.campanha_core.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
-import com.processo_seletivo_core.domain.campanha.Campanha;
-import com.processo_seletivo_core.domain.campanha.CampanhaService;
-import com.processo_seletivo_core.domain.exceptions.ServiceException;
+import com.campanha_core.domain.campanha.Campanha;
+import com.campanha_core.domain.campanha.CampanhaService;
+import com.campanha_core.domain.exceptions.ServiceException;
 import java.util.Optional;
 import org.springframework.web.bind.annotation.RequestParam;
 

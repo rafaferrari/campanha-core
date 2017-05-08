@@ -1,4 +1,4 @@
-package com.processo_seletivo_core.domain.exceptions;
+package com.campanha_core.domain.exceptions;
 
 public class ServiceException extends Exception {
 

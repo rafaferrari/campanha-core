@@ -1,6 +1,6 @@
-package com.processo_seletivo_core.domain.campanha;
+package com.campanha_core.domain.campanha;
 
-import com.processo_seletivo_core.domain.exceptions.ServiceException;
+import com.campanha_core.domain.exceptions.ServiceException;
 import java.util.Optional;
 
 public interface CampanhaService {

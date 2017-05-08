@@ -1,4 +1,4 @@
-package com.processo_seletivo_core.domain.campanha;
+package com.campanha_core.domain.campanha;
 
 import java.time.LocalDate;
 import java.util.List;
