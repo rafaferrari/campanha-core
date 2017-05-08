@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: campanha-core
+    version: 0.1.0
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+    
