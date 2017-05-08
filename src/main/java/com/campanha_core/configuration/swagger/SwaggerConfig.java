@@ -24,7 +24,7 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        ApiInfo apiInfo = new ApiInfo(
+        return new ApiInfo(
                 "Campanha REST API",
                 "API responsável pelo gerenciamento das Campanhas.",
                 "",
@@ -32,7 +32,6 @@ public class SwaggerConfig {
                 "rafael.ferrari1987@gmail.com",
                 "",
                 "");
-        return apiInfo;
     }
 
 }
