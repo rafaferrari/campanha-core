@@ -1,6 +1,6 @@
 # campanha-core
 
-Servico responsavel pelo gerenciamento de Campanhas.
+Serviço responsável pelo gerenciamento de Campanhas.
 
 # Tecnologias utilizadas neste projeto
 
@@ -23,8 +23,11 @@ Servico responsavel pelo gerenciamento de Campanhas.
 ```bash
 http://localhost:8082/swagger-ui.html
 ```
-- Para rodar os testes, executar: "clean test jacocoTestReport"
-- Caso seja necessario alterar a porta do servico, acessar o arquivo application.yml e alterar a propriedade abaixo:
+- Para rodar os testes, executar:
+```bash
+clean test jacocoTestReport
+```
+- Caso seja necessário alterar a porta do serviço, acessar o arquivo application.yml e alterar a propriedade abaixo:
 ```bash
 server.port: 8082
 ```
