@@ -37,6 +37,8 @@ server.port: 8082
 - Desenvolvimento orientado a microservice
 - Arquitetura e desenvolvimento de APIs REST
 - Projeto com modelo em camadas
+- Clean code
+- Boas práticas de programação utilizando Java 8
 
 # About
 
