@@ -17,13 +17,17 @@ Servico responsavel pelo gerenciamento de Campanhas.
 # Forma de Uso
 
 - Clonar este repositorio
-- Gradle instalado
-- Iniciar o servico
+- Instalar [Gradle](https://gradle.org).
+- Inicializar o servico
 - API do Swagger: 
 ```bash
 http://localhost:8082/swagger-ui.html
 ```
 - Para rodar os testes, executar: "clean test jacocoTestReport"
+- Caso seja necessario alterar a porta do servico, acessar o arquivo application.yml e alterar a propriedade abaixo:
+```bash
+server.port: 8082
+```
 
 # Arquitetura
 
